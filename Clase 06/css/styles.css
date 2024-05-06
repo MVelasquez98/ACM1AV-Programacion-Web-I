@@ -1,0 +1,42 @@
+/* body{
+    background-color: aquamarine;
+    background-image: url(../img/image.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: right top;
+    background-attachment: fixed;
+} */
+
+body{
+    background: aquamarine url(../img/image.png) no-repeat right bottom/auto fixed ;
+}
+
+a{
+    color:red;
+}
+a:visited{
+    color: green;
+}
+a:focus{
+    color:aqua
+}
+a:hover{
+    color:deeppink;
+}
+
+a:active{
+    color: darksalmon;
+}
+
+.lista-1{
+    list-style-type: circle;
+    list-style-position:outside;
+    list-style-image: url();
+}
+.lista-1 li{
+    text-shadow: 1px 1px black;
+}
+.lista-2{
+    list-style: none;
+    display: flex;
+}
