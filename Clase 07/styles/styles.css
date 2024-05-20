@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Heroes Assemble Italic';
+    src: url('fonts/heroesassembleout.ttf');
+}
+
+body{
+    margin: 0;
+    font-family: 'Heroes Assemble Italic';
+}
+
+.overflow-container{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.container{
+    padding: 10px;
+    height: 200px;
+    overflow: hidden;
+border: 1px solid;
+}
+
+.float-left{
+    float: left;
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    background-color: lightblue;
+}
+.float-left:hover{
+display: none;
+}
+
+.float-right{
+    float: right;
+    width: 45%;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.clear{
+    clear: both;
+    padding: 10px;
+    background-color: beige;
+}
+
+figure{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+figcaption{
+    color: #fff;
+    font-size: 20px;
+    background-color:brown;
+    font-family: 'Roboto', sans-serif;
+}
+
+figcaption:hover{
+visibility: hidden;}
