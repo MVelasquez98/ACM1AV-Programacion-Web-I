@@ -1,0 +1,88 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.clase-1{
+    font-size: 10px;
+}
+
+#id-1{
+    font-size: 15px;
+}
+
+p.clase-2{
+    background-color: aqua;
+}
+
+/* el elemento contiene las dos clases en simultaneo*/
+.clase-2.clase-3{
+    background-color: brown;
+}
+.productos .limpieza{
+    background-color: aqua;
+}
+.productos.limpieza{
+    background-color: red;
+}
+
+div, .lacteos{
+ background-color: green;
+}
+
+.productos .carne, .productos.limpieza{
+    font-weight: bold;
+}
+
+.productos .elementos .elemento-2{
+    background-color: aquamarine;
+}
+
+section > p{
+    background-color: antiquewhite;
+}
+
+section p{
+    font-weight: bold;
+}
+/* el elemento hermano*/
+
+.hijo-1 ~ div{
+    color: blue;
+}
+/* el elemento hermano adyacente (o mas cerca)*/
+
+.hijo-1 + div{
+    color: aqua;
+}
+
+.hijo-1:hover{
+    background-color: violet;
+}
+
+section p:first-child{
+    font-size: 5px;
+}
+section div:last-child{
+    font-size: 50px;
+}
+
+h2::before{
+    content: "+";
+    color: white;
+    background-color: red;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+h2::after{
+    content: "-";
+    color: aqua;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    |<link rel="stylesheet" href="css/styles.css">
+    <title>Clase 8</title>
+</head>
+<body>
+    <form action="gracias.html" method="post" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend><span>Datos Personales</span></legend>
+            <label>Nombre
+            <input type="text">
+            </label>
+            <label for="nombre">Apellido</label>
+            <input id="nombre" type="text">
+        </fieldset>
+        <input type="radio" value="Yes">
+        <input type="radio" value="Yes">
+        <input type="checkbox" checked value="Yes">
+        <input type="checkbox" value="Yes">
+        <select name="" id="" multiple size="2">
+            <optgroup label="opciones">
+                <option value="hjjgjh">Hola 1</option>
+                <option value="">Hola 2</option>
+            </optgroup>
+            <optgroup label="opciones2">
+                <option value="hjjgjh">Hola 1</option>
+                <option value="">Hola 2</option>
+            </optgroup>
+            <option value="" disabled selected>Seleccionar algo</option>
+        </select>
+        |<span>DataList</span>
+        <input type="text" list="datos">
+        <datalist id="datos">
+            <option value="Hola">Hola 1</option>
+            <option value="Hola 2">Hola 2</option>
+            <option value="">Hola 3</option>
+        </datalist>
+        <input type="file" name="" id="" accept="image/jpg">        
+        <input type="text" required tabindex="1">
+        <input type="password" required placeholder="Ej: solo1234">
+        <input type="search" name="buscar">
+        <input type="color">
+        <input type="range">
+        <input type="date">
+        <input type="time" tabindex="2">
+        <input type="datetime-local">
+        <input type="week">
+        <input type="month">
+        <span>Email</span>
+        <input type="email" autocomplete="off">
+        <input type="number" min="100" max="102" step="3" value="101" disabled>
+        <input type="tel" value="123456" readonly>
+        <textarea name="" id="" cols="30" rows="10">Escribi aca tu comentario</textarea>
+        <button type="reset" value="Enviar">Limpiar consulta</button>
+        <button type="button" value="Enviar">Boton adicionl</button>
+        <button type="submit" value="Enviar">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+textarea{
+    height: 200px;
+    resize: none;
+}
+
+fieldset{
+    border: solid 4px pink;
+}
+
+legend{
+ background: pink;
+ text-align: center;
+}
