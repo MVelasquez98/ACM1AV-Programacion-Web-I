@@ -1,0 +1,97 @@
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.block{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: 5px;
+}
+.inline{
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+.columnas{
+    display: flex;
+}
+.columna{
+    flex: 1;
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.contenedor{
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.float{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    margin: 5px;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.static{
+    position: static;
+    background-color: aliceblue;
+}
+.relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: aquamarine;
+}
+.absolute{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
+    top:50px;
+    left: 50px;
+    background-color: brown;
+}
+.caja1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 255, 232);
+    z-index: 1;
+}
+
+.caja2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    z-index: 2;
+}
